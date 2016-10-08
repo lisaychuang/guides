@@ -123,7 +123,6 @@ test('should link to information about the company.', function (assert) {
   andThen(function () {
     assert.equal(currentURL(), '/about', 'should navigate to about');
   });
-});
 
 test('should link to contact information', function (assert) {
   visit('/');
